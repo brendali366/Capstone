@@ -9,6 +9,7 @@ db.dropDatabase() - to drop a database. you'll need to be in it first.
 db.collection_name.insertOne({name:"name1",age:"age1,fieldname:"exact_field_name"}) - insert as many field value pairs you want in the collection
 - use .insertMany([{},{},{}]) - insert many documents. (more than one).
 db.collection_name.find() - will show you all documents in the collection name
+db.getCollectionNames() - gives all the collections in the database.
 
 Naming conventions:
 -Primary Users = kids
