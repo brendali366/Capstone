@@ -32,5 +32,7 @@ db.PrimaryUsers.find({}, {_id:false, name:true, score:true}) - will return name,
 update documents:
 db.collection_name.updateOne({filter},{$set:{update}}) i.e db.collection_name.updateOne({name:"brenda"},{$set:{email:"hi@gmail.com"}})
 -.updateMany() is also an option
+$unset - will remove a field
 - use user id instead of name (in case of people with the same name)
+- idea: for changing weekly scores to 0 - db.collection_name.updateMany()
 
