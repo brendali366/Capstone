@@ -1,4 +1,4 @@
-common commands to use in mongodb terminal:
+common commands to use in mongodb terminal: https://www.youtube.com/watch?v=c2M-rlkkT5o&list=WL&index=1 
 
 cls - clear screen
 
@@ -6,6 +6,9 @@ use database_name - switch to a database_name or create a new database
 
 db.createCollection("collection_name") - create a collection
 db.dropDatabase() - to drop a database. you'll need to be in it first.
+db.collection_name.insertOne({name:"name1",age:"age1,fieldname:"exact_field_name"}) - insert as many field value pairs you want in the collection
+- use .insertMany([{},{},{}]) - insert many documents. (more than one).
+db.collection_name.find() - will show you all documents in the collection name
 
 Naming conventions:
 -Primary Users = kids
