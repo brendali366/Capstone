@@ -11,9 +11,16 @@ db.collection_name.insertOne({name:"name1",age:"age1,fieldname:"exact_field_name
 db.collection_name.find() - will show you all documents in the collection name
 db.getCollectionNames() - gives all the collections in the database.
 
-Naming conventions:
--Primary Users = kids
--Contact Book = stores secondary user information
+Naming conventions for collections:
+-PrimaryUsers = kids
+-ContactBook = stores secondary user information
 
 video timestamps:
 20.11 - nested documents 
+
+sorting and limiting:
+db.collection_name.find().sort({field_name:1}) - sort names in alphabetical order, -1 is in descending order
+^can be use ful for sorting leaderboard scores.
+db.collection_name.find().limit(#) - can limit how many documents come up
+db.collection_name.find().sort({}).limit() - to use both.
+
