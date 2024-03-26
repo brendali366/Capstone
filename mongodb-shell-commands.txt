@@ -13,3 +13,6 @@ db.collection_name.find() - will show you all documents in the collection name
 Naming conventions:
 -Primary Users = kids
 -Contact Book = stores secondary user information
+
+video timestamps:
+20.11 - nested documents 
