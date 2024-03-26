@@ -24,3 +24,10 @@ db.collection_name.find().sort({field_name:1}) - sort names in alphabetical orde
 db.collection_name.find().limit(#) - can limit how many documents come up
 db.collection_name.find().sort({}).limit() - to use both.
 
+find method (.find()):
+db.collection_name.find({query}, {projection}) ex: db.PrimaryUsers.find({}, {_id:false, name:true}) - will return all documents but only with name
+db.PrimaryUsers.find({}, {_id:false, name:true, score:true}) - will return name, with leaderboard score
+^useful for leaderboard feature.
+
+
+
