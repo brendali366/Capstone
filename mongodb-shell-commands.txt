@@ -29,5 +29,8 @@ db.collection_name.find({query}, {projection}) ex: db.PrimaryUsers.find({}, {_id
 db.PrimaryUsers.find({}, {_id:false, name:true, score:true}) - will return name, with leaderboard score
 ^useful for leaderboard feature.
 
-
+update documents:
+db.collection_name.updateOne({filter},{$set:{update}}) i.e db.collection_name.updateOne({name:"brenda"},{$set:{email:"hi@gmail.com"}})
+-.updateMany() is also an option
+- use user id instead of name (in case of people with the same name)
 
