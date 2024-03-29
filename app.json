@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "LearningKids",
+    "slug": "LearningKids",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

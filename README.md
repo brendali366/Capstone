@@ -1,6 +1,7 @@
-# Capstone
+Work in App.js
 
-UNT Capstone CSCE 4901
-GROUP 16
-MOBILE MINDS
-edsjkfgjkew
+Node -v
+-> Make sure in version 'v20.11.1'
+
+npm -v
+-> make sure version '10.2.4'
