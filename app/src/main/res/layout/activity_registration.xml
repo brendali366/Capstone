@@ -11,14 +11,14 @@
     tools:context=".Registration">
 
     <!--sign up box card -->
-
+    <!-- logo try to not mess with layout
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:contentDescription="learning_kids_logo"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo" /> -->
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
