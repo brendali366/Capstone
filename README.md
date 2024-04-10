@@ -17,3 +17,6 @@ npm install expo
 To start:
 
 npx expo start
+
+
+//trying to push
