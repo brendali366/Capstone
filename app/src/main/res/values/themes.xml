@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LearningKids" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/orange_beige_background_color</item>
+        <item name="colorPrimaryVariant">@color/light_brown_fill_in_text_color</item>
+
+    </style>
+
+
+</resources>
