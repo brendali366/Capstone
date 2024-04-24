@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- make sure to use relative layout tag for your layout screens!-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A672"
+    tools:context=".LoginActivity">
+
+    <!--"welcome to" text-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/pressstart2pregular"/>
+
+
+    <ImageView
+        android:id="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/learning_kids_logo" />
+
+    <!-- email input text bar -->
+    <EditText
+        android:id="@+id/inputEmailLogin"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+
+    <!-- password input text bar -->
+    <EditText
+        android:id="@+id/inputPasswordLogin"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+
+    <!-- login  button -->
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#795548"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:fontFamily="@font/pressstart2pregular"
+        android:paddingTop="20dp"
+        android:text="Login"
+    />
+
+
+
+</RelativeLayout>

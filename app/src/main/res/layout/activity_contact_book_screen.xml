@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige_background_color"
+    tools:context=".ContactBookScreen">
+
+    <ImageView
+        android:id="@+id/woman"
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="220dp"
+        android:src="@drawable/smile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_first"
+
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="220dp"
+        android:backgroundTint="@color/dark_brown"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Mom"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/woman" />
+
+    <ImageView
+        android:id="@+id/man"
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/dark_brown"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Dad"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/man" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/pressstart2pregular"
+        android:gravity="center"
+        android:text="CONCTACT BOOK"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="#795548"
+        />
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="53dp"
+        android:layout_height="41dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginEnd="355dp"
+        android:rotation="180"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:src="@drawable/back_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/grandma"
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="220dp"
+        android:src="@drawable/grandma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/woman"
+        app:layout_constraintTop_toBottomOf="@+id/button_first" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="220dp"
+        android:backgroundTint="@color/dark_brown"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Grandma"
+
+        android:textColor="@color/white"
+        android:textSize="17dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grandma" />
+
+    <ImageView
+        android:id="@+id/grandpa"
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/grandpa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/man"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/grandpa_button"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/dark_brown"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Grandpa"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/grandpa"
+        app:layout_constraintTop_toBottomOf="@+id/grandpa" />
+
+    <ImageView
+        android:id="@+id/fire"
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="216dp"
+        android:src="@drawable/firep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/grandma"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/FireDepartment"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="208dp"
+        android:backgroundTint="@color/dark_brown"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Fire Department"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fire" />
+
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/badge"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/grandpa"
+        app:layout_constraintTop_toBottomOf="@+id/grandpa_button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/dark_brown"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Police Department"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/badge"
+        app:layout_constraintTop_toBottomOf="@+id/badge" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

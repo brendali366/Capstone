@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="328dp"
+        android:layout_height="599dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/settingsbutton"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B8875F"
+                android:text="Settings"
+                android:gravity="center"
+                android:textSize="8sp"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.939"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.08"
+                android:fontFamily="@font/pressstart2pregular"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/storybutton"
+                android:layout_width="111dp"
+                android:layout_height="49dp"
+                android:backgroundTint="#B8875F"
+                android:gravity="center"
+                android:text="Story Game"
+                android:textSize="8sp"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.594"
+                android:fontFamily="@font/pressstart2pregular"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/leaderboardbutton"
+                android:layout_width="111dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#B8875F"
+                android:gravity="center"
+                android:text="Leaderboard"
+                android:textSize="7sp"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.079"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.865"
+                android:fontFamily="@font/pressstart2pregular"
+                android:textColor="@color/white"/>
+
+
+            <Button
+                android:id="@+id/contactbutton"
+                android:layout_width="111dp"
+                android:layout_height="52dp"
+                android:backgroundTint="#B8875F"
+                android:gravity="center"
+                android:text="Contact Book"
+                android:textSize="8sp"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.632"
+                android:fontFamily="@font/pressstart2pregular"
+                android:textColor="@color/white"/>
+
+
+            <Button
+                android:id="@+id/logoutbtn"
+                android:layout_width="111dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#B8875F"
+                android:gravity="center"
+                android:text="Log Out"
+                android:textSize="8sp"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.939"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.213"
+                android:fontFamily="@font/pressstart2pregular"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="153dp"
+                android:layout_height="79dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Welcome Back!"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.091"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.142"
+                android:fontFamily="@font/pressstart2pregular"
+                android:textColor="@color/black"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeScreen">
+
+        <TextView
+            android:id="@+id/idheadTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="home screen of learning kids app - will replace this screen with annies screen"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idheadTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Logout"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+    -->
+
+
