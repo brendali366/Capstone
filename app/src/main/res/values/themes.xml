@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- changing FireBaseUIStyle -->
+    <style name="CustomFirebaseUIStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/beige_background_color</item>
+        <item name="android:editTextColor">@color/black</item>
+    </style>
+
+</resources>

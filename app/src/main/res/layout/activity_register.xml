@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- make sure to use relative layout tag for your layout screens!-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A672"
+    tools:context=".LoginActivity">
+
+    <!--"Sign Up" text-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Sign Up"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/pressstart2pregular"/>
+
+
+    <ImageView
+        android:id="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/learning_kids_logo" />
+
+    <!-- email input text bar -->
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+
+    <!-- username input text bar
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+        -->
+
+    <!-- password input text bar -->
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="620dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+
+    <!-- login  button -->
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:backgroundTint="#795548"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="750dp"
+        android:fontFamily="@font/pressstart2pregular"/>
+
+</RelativeLayout>
