@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="017dp">
+
+        <ImageView
+            android:id="@+id/woman"
+            android:layout_width="171dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="196dp"
+            android:src="@drawable/smile"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <Button
+            android:id="@+id/button_first"
+
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="196dp"
+            android:backgroundTint="@color/darkbeige"
+            android:fontFamily="@font/fontfam"
+            android:text="Mom"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/woman" />
+
+        <ImageView
+            android:id="@+id/man"
+            android:layout_width="171dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/man"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/darkbeige"
+            android:fontFamily="@font/fontfam"
+            android:textColor="@color/white"
+            android:text="Dad"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/man" />
+
+        <Button
+            android:id="@+id/grandpa_button"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/darkbeige"
+            android:fontFamily="@font/fontfam"
+            android:textColor="@color/white"
+            android:text="Grandpa"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grandpa" />
+
+        <ImageView
+            android:id="@+id/grandma"
+            android:layout_width="171dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="196dp"
+            android:src="@drawable/grandma"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_first" />
+
+        <ImageView
+            android:id="@+id/grandpa"
+            android:layout_width="171dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/grandpa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="196dp"
+            android:backgroundTint="@color/darkbeige"
+            android:text="Grandma"
+
+            android:fontFamily="@font/fontfam"
+            android:textSize="17dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grandma" />
+
+        <ImageView
+            android:id="@+id/fire"
+            android:layout_width="171dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="196dp"
+            android:src="@drawable/firep"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/FireDepartment"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="196dp"
+            android:backgroundTint="@color/darkbeige"
+            android:fontFamily="@font/fontfam"
+            android:text="Fire Department"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fire" />
+
+        <ImageView
+            android:id="@+id/badge"
+            android:layout_width="171dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/badge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grandpa_button" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/darkbeige"
+            android:fontFamily="@font/fontfam"
+            android:textSize="12dp"
+            android:text="Police Department"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/badge" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
