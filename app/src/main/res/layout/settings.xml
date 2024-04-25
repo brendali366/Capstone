@@ -1,0 +1,138 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:background="@color/beige_background_color">
+
+    <!--This is the Settings banner/title-->
+    <EditText
+        android:id="@+id/settingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:text="SETTINGS"
+        android:textStyle="bold"
+        android:fontFamily="@font/pressstart2pregular"
+        android:textSize="25sp" />
+
+
+
+    <!--The profile picture display-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_centerInParent="true"
+        android:src="@drawable/profilepic"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/settingsTitle"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        />
+
+
+    <!--First Name entry-->
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/profileImage"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:inputType="text"
+        android:hint="First Name"
+        android:background="@drawable/rounded_corner"
+        android:scaleType="center"
+        android:textSize="22sp"
+        android:ems='10'
+        android:layout_centerHorizontal="true"
+        android:paddingStart="8dp"
+        android:paddingTop="15dp"/>
+
+
+    <!--Last name entry-->
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editName"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner"
+        android:hint= "Last Name"
+        android:scaleType="center"
+        android:textSize="22sp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="8dp"
+        android:paddingTop="15dp"
+        />
+
+    <!--Email Address Entry-->
+    <EditText
+        android:id="@+id/editEmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editLastName"
+        android:hint="Email"
+        android:background="@drawable/rounded_corner"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="center"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="8dp"
+        android:paddingTop="15dp"
+        />
+
+    <!--Password Entry-->
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editEmailAddress"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:background="@drawable/rounded_corner"
+        android:textSize="22sp"
+        android:ems="10"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="8dp"
+        android:paddingTop="15dp"
+        />
+
+
+
+
+    <!--Save button entry-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#795548"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Save"
+        />
+
+
+
+
+
+</RelativeLayout>
