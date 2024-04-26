@@ -2,13 +2,14 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/navigation_graph"
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/FirstPage">
 
     <fragment android:id="@+id/FirstPage"
-        android:label="ContactBookPageOne"
+        android:label="ContactBookPageOne">
 
 
 
 
-        />
+        </fragment>
 </navigation>
