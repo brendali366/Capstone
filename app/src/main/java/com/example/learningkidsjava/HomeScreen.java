@@ -21,10 +21,19 @@ public class HomeScreen extends AppCompatActivity {
         // Methods to make buttons move to different screens
 
         //Creating Buttons to Move Between Screens
-        Button contactbtn = findViewById(R.id.contactbutton);
-        Button leaderboardbtn = findViewById(R.id.leaderboardbutton);
-        Button settingsbtn = findViewById(R.id.settingsbutton);
-        Button storybtn = findViewById(R.id.storybutton);
+        Button ContactButton = findViewById(R.id.contactbutton);
+        Button LeaderboardButton = findViewById(R.id.leaderboardbutton);
+        Button SettingsButton = findViewById(R.id.settingsbutton);
+        Button StoryButton = findViewById(R.id.storybutton);
+
+
+        SettingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeScreen.this, SettingsTest.class);
+                startActivity(intent);
+            }
+        });
 
         //adding onClickListener
 //        contactbtn.setOnClickListener(new View.OnClickListener(){
