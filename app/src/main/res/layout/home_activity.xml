@@ -25,13 +25,12 @@
 
         <Button
             android:id="@+id/settingsbutton"
-            android:layout_width="63dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:backgroundTint="#B8875F"
-            android:scaleType="centerInside"
             android:text="Settings"
-            android:textSize="10sp"
+            android:gravity="center"
+            android:textSize="8sp"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,60 +41,61 @@
 
         <Button
             android:id="@+id/storybutton"
-            android:layout_width="63dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
+            android:layout_width="111dp"
+            android:layout_height="49dp"
             android:backgroundTint="#B8875F"
-            android:scaleType="centerInside"
-            android:text="Button"
+            android:gravity="center"
+            android:text="Story Game"
+            android:textSize="8sp"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintHorizontal_bias="0.258"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.61" />
+            app:layout_constraintVertical_bias="0.594" />
 
         <Button
             android:id="@+id/leaderboardbutton"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
+            android:layout_width="127dp"
+            android:layout_height="48dp"
             android:backgroundTint="#B8875F"
-            android:scaleType="centerInside"
-            android:text="Button"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textSize="7sp"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.158"
+            app:layout_constraintHorizontal_bias="0.079"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.818" />
+            app:layout_constraintVertical_bias="0.865" />
 
         <Button
             android:id="@+id/contactbutton"
-            android:layout_width="61dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
+            android:layout_width="113dp"
+            android:layout_height="52dp"
             android:backgroundTint="#B8875F"
-            android:scaleType="centerInside"
-            android:text="Button"
+            android:gravity="center"
+            android:text="Contact Book"
+            android:textSize="8sp"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.973"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.656" />
+            app:layout_constraintVertical_bias="0.632" />
 
         <Button
             android:id="@+id/logoutbutton"
-            android:layout_width="63dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
+            android:layout_width="111dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
             android:backgroundTint="#B8875F"
-            android:scaleType="centerInside"
-            android:text="Button"
+            android:gravity="center"
+            android:text="Log Out"
+            android:textSize="8sp"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -103,6 +103,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.213" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="153dp"
+            android:layout_height="79dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Welcome Back!"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.142" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
