@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Learning4Kids" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- changing FireBaseUIStyle -->
+    <style name="CustomFirebaseUIStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/beige_background_color</item>
+        <item name="android:editTextColor">@color/black</item>
     </style>
 
-    <style name="Theme.Learning4Kids" parent="Base.Theme.Learning4Kids" />
 </resources>
