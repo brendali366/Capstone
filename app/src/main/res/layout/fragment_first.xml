@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/beige"
-    tools:context="">
+    tools:context=".FragmentFirst">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -84,6 +84,7 @@
             android:layout_marginTop="56dp"
             android:layout_marginEnd="16dp"
             android:src="@drawable/badge"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/grandpa"
@@ -93,10 +94,11 @@
             android:id="@+id/woman"
             android:layout_width="171dp"
             android:layout_height="115dp"
+            android:layout_marginTop="120dp"
             android:layout_marginEnd="208dp"
             android:src="@drawable/smile"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="120dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/grandpa_button"

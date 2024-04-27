@@ -5,11 +5,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/FirstPage">
 
-    <fragment android:id="@+id/FirstPage"
-        android:label="ContactBookPageOne">
+    <fragment
+        android:id="@+id/FirstPage"
+        android:name="com.example.learningforkidscharles.FragmentFirst"
+        android:label="ContactBookPageOne"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstPage_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.learningforkidscharles.FragmentSecond"
+        android:label="Mom"
+        tools:layout="@layout/fragment_second">
+
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstPage"
+            app:destination="@id/FirstPage" />
+    </fragment>
 
 
 
 
-        </fragment>
 </navigation>
