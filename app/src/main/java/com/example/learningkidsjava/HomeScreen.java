@@ -25,7 +25,25 @@ public class HomeScreen extends AppCompatActivity {
         Button LeaderboardButton = findViewById(R.id.leaderboardbutton);
         Button SettingsButton = findViewById(R.id.settingsbutton);
         Button StoryButton = findViewById(R.id.storybutton);
+        //Placeholder for logoutbutton, idk if you need it though
+        //Button LogoutButton = findViewById(R.id.logoutbutton)
 
+        //On Click Listeners to move between activities
+        ContactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeScreen.this, ContactBookTest.class);
+                startActivity(intent);
+            }
+        });
+
+        LeaderboardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeScreen.this, LeaderboardTest.class);
+                startActivity(intent);
+            }
+        });
 
         SettingsButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,18 +53,24 @@ public class HomeScreen extends AppCompatActivity {
             }
         });
 
-        //adding onClickListener
-//        contactbtn.setOnClickListener(new View.OnClickListener(){
+        StoryButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeScreen.this, StoryGameTest.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //Placeholder for logout button, idk if you need it though
+//        LogoutButton.setOnClickListener(new View.OnClickListener() {
 //            @Override
-//            public void onClick(View v){
-//                AuthUI.getInstance()
-//                        .signOut(ContactBookTest.this)
-//
-//
+//            public void onClick(View v) {
+//                Intent intent = new Intent(HomeScreen.this, SettingsTest.class);
+//                startActivity(intent);
 //            }
-//            Intent contactintent = new Intent(this, ContactBookTest.class);
-//            startActivity(contactintent);
-//        }
+//        });
+
     }
 
 }
