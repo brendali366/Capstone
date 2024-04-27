@@ -10,7 +10,7 @@
     android:background="#E4A672"
     tools:context=".CreateProfile">
 
-<!--Create PRofile text-->
+<!--Create Profile text-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
         />
 
     <Button
-        android:id="@+id/uploadButton"
+        android:id="@+id/createPFPButton"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:text="Upload Image"
@@ -56,7 +56,7 @@
     <!-- username input text bar -->
 
     <EditText
-        android:id="@+id/inputUsername"
+        android:id="@+id/createUsername"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:background="@drawable/rounded_corners"
@@ -65,7 +65,7 @@
         android:textSize="15sp"
         android:paddingStart="8dp"
         android:paddingTop="8dp"
-        android:layout_below="@id/uploadButton"
+        android:layout_below="@id/createPFPButton"
         android:fontFamily="@font/pressstart2pregular"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
@@ -86,7 +86,7 @@
 
     <!-- register  button -->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/createProfileButton"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
