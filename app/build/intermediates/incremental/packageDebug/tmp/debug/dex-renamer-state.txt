@@ -1,7 +1,7 @@
-#Sat Apr 27 19:53:16 CDT 2024
-base.0=C\:\\Users\\clarb\\AndroidStudioProjects\\FinalContactBookCharles\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\clarb\\AndroidStudioProjects\\FinalContactBookCharles\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\clarb\\AndroidStudioProjects\\FinalContactBookCharles\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+#Sun Apr 28 15:59:15 CDT 2024
+base.0=C\:\\Users\\mejay\\AndroidStudioProjects\\ContactBook\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\mejay\\AndroidStudioProjects\\ContactBook\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\mejay\\AndroidStudioProjects\\ContactBook\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=5/classes.dex

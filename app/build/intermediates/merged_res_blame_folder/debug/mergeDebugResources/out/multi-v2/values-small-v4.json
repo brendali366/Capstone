@@ -4,7 +4,7 @@
             "outputFile": "com.example.idekatp.app-mergeDebugResources-41:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\64b0c54c81efba8b6c27ef2525d594d0\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\mejay\\.gradle\\caches\\transforms-3\\64b0c54c81efba8b6c27ef2525d594d0\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

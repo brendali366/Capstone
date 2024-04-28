@@ -4,7 +4,7 @@
             "outputFile": "com.example.idekatp.app-mergeDebugResources-41:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\9a0813c8653e938598890f426a9701c2\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mejay\\.gradle\\caches\\transforms-3\\9a0813c8653e938598890f426a9701c2\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\196583cb727dda22d9e73482887ccfc1\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mejay\\.gradle\\caches\\transforms-3\\196583cb727dda22d9e73482887ccfc1\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
