@@ -2,6 +2,12 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+<<<<<<< HEAD
+=======
+      <entry key="ContactBookPage">
+        <State />
+      </entry>
+>>>>>>> 7c35b62e (contact book prototype)
       <entry key="app">
         <State />
       </entry>
