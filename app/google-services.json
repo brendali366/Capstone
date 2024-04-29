@@ -1,0 +1,359 @@
+{
+  "project_info": {
+    "project_number": "289594749327",
+    "firebase_url": "https://learning-kids-fae8f-default-rtdb.firebaseio.com",
+    "project_id": "learning-kids-fae8f",
+    "storage_bucket": "learning-kids-fae8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:09db9fe34b5510688bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.contactbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:79fb22724c8ff0cc8bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.contactcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:d174acb71fcf8c5c8bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.idekatp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:1d8c03777389be9a8bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.learning4kids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:dd8a01c37d0a15e78bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.learningforkidscharles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:efae4f7a306bb7c98bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.learningkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:c8a81bd2d81f21d38bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.learningkidsbrenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:a0c936eddfc157dc8bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.learningkidsjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:de524aede46311668bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.learningkidsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:09d0163a8f3e98d58bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:e0b5de9268c813698bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289594749327:android:74e758c689fb70398bdbfa",
+        "android_client_info": {
+          "package_name": "com.example.user_account_creation_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAje15YrK46rhPnNt5xMT_ZBbsmbSAwDpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289594749327-fijkh2f5q2orau1infg7oo1djegk3ngp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
