@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.idekatp.app-mergeDebugResources-41:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.idekatp.app-mergeDebugResources-38:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\64b0c54c81efba8b6c27ef2525d594d0\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\6dd15d266090ff0494410fca180c47ac\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\9a0813c8653e938598890f426a9701c2\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\dbd47a9c2cf90d2a97ef948f006ea2b0\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

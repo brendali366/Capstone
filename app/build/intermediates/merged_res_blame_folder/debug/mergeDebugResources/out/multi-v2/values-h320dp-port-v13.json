@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.idekatp.app-mergeDebugResources-41:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.idekatp.app-mergeDebugResources-38:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\64b0c54c81efba8b6c27ef2525d594d0\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\6dd15d266090ff0494410fca180c47ac\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

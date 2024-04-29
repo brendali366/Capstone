@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.idekatp.app-mergeDebugResources-41:/values-v22/values-v22.xml",
+            "outputFile": "com.example.idekatp.app-mergeDebugResources-38:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\9a0813c8653e938598890f426a9701c2\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\clarb\\.gradle\\caches\\transforms-3\\dbd47a9c2cf90d2a97ef948f006ea2b0\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

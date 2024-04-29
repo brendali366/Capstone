@@ -1,162 +1,162 @@
 [
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.idekatp.app-debug-40:/layout_mom.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/layout/mom.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/navigation_nav.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/navigation/nav.xml"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_fire.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/fire.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_man.jpg.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/man.jpg"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_back_arrow.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/back_arrow.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/font_fontfam.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/font/fontfam.xml"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_police.jpg.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/police.jpg"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_grandpa.jpg.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/grandpa.jpg"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_smile.jpg.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/smile.jpg"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_firep.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/firep.png"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_inverthouse.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/inverthouse.png"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_home.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/home.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_phone.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/phone.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_download.jpg.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/download.jpg"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.idekatp.app-debug-40:/layout_contact_book_page.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/layout/contact_book_page.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_invertinfo.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/invertinfo.png"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_inverthouse.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/inverthouse.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/xml/data_extraction_rules.xml"
+        "merged": "com.example.idekatp.app-debug-40:/font_fontfam.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/font/fontfam.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_grandma.jpg.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/grandma.jpg"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_info_icon.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/info_icon.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/layout_contact_book_page.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/layout/contact_book_page.xml"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_firep.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/firep.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_phone.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/phone.png"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_grandpa.jpg.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/grandpa.jpg"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_invertphone.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/invertphone.png"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_badge.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/badge.png"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_info_icon.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/info_icon.png"
+        "merged": "com.example.idekatp.app-debug-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_smile.jpg.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/smile.jpg"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_oval.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/oval.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_invertphone.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/invertphone.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_police.jpg.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/police.jpg"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "com.example.idekatp.app-debug-40:/font_press2play.ttf.flat",
+        "source": "com.example.idekatp.app-main-42:/font/press2play.ttf"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_phone1.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/phone1.png"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_img.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/img.png"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_badge.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/badge.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_home.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/home.png"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_grandma.jpg.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/grandma.jpg"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_man.jpg.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/man.jpg"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_oval.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/oval.xml"
+        "merged": "com.example.idekatp.app-debug-40:/navigation_nav.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/navigation/nav.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_back_arrow.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/back_arrow.png"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/drawable_fire.png.flat",
-        "source": "com.example.idekatp.app-main-45:/drawable/fire.png"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/layout_mom.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/layout/mom.xml"
+        "merged": "com.example.idekatp.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.idekatp.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/xml_backup_rules.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/xml/backup_rules.xml"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_invertinfo.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/invertinfo.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_download.jpg.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/download.jpg"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/font_press2play.ttf.flat",
-        "source": "com.example.idekatp.app-main-45:/font/press2play.ttf"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_phone1.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/phone1.png"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.idekatp.app-debug-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.idekatp.app-main-42:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.idekatp.app-debug-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.idekatp.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.idekatp.app-debug-40:/drawable_img.png.flat",
+        "source": "com.example.idekatp.app-main-42:/drawable/img.png"
     }
 ]
