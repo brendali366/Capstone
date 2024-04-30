@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/settingsT"
         android:layout_marginStart="20dp"
-        android:text="SETTINGS"
+        android:text="Create Contact"
         android:fontFamily="@font/pressstart2pregular"
         android:textSize="25sp"
         android:textColor="@color/white"

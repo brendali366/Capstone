@@ -66,7 +66,7 @@
         android:layout_marginTop="0dp"
         android:fontFamily="@font/pressstart2pregular"
         android:gravity="center"
-        android:text="CONCTACT BOOK"
+        android:text="CONTACT BOOK"
         android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintTop_toTopOf="parent"
@@ -85,6 +85,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="fitCenter"/>
+
+
+    <!-- Set your image here -->
+    />
+
+
 
     <ImageView
         android:id="@+id/grandma"
@@ -193,6 +199,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/badge"
         app:layout_constraintTop_toBottomOf="@+id/badge" />
+
+    <Button
+        android:id="@+id/addContactButton"
+        android:layout_width="171dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#795548"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/pressstart2pregular"
+        android:text="Add Contact"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

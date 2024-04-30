@@ -18,11 +18,14 @@ public class ContactBookScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_contact_book_screen);
 
         Button MomButton = findViewById(R.id.button_first);
+        Button AddContactButton = findViewById(R.id.addContactButton);
+
+        // Set a click listener on the button
 
         MomButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +35,13 @@ public class ContactBookScreen extends AppCompatActivity {
             }
         });
 
-
+        AddContactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactBookScreen.this, AddContact.class);
+                startActivity(intent);
+            }
+        });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
