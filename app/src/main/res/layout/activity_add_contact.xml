@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- make sure to use relative layout tag for your layout screens!-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A672"
+    tools:context=".AddContact">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Add a Contact"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/pressstart2pregular"/>
+
+
+    <!--image and button upload text-->
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/uploadimage"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/createPFPButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Upload Image"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilePicture"
+        android:fontFamily="@font/pressstart2pregular"
+        android:textSize="15sp"
+        android:backgroundTint="#795548"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp" />
+
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Phone Number"
+        android:inputType="text"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"
+        />
+
+
+    <EditText
+        android:id="@+id/inputAddress"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+
+    <EditText
+        android:id="@+id/inputExtraInfo"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Info"
+        android:inputType="text"
+        android:layout_marginTop="700dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingStart="8dp"/>
+
+    <!-- register  button -->
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:backgroundTint="#795548"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/pressstart2pregular"
+        android:paddingTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
+
