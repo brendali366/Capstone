@@ -16,6 +16,9 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="32">
         <activity
+            android:name=".AddContact"
+            android:exported="false" />
+        <activity
             android:name=".MomTestScreen"
             android:exported="false" />
         <activity
