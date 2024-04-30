@@ -16,12 +16,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class ContactBookScreen extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
 
 
         EdgeToEdge.enable(this);
@@ -38,22 +35,34 @@ public class ContactBookScreen extends AppCompatActivity {
             }
         });
 
-    ImageButton add;
+        ImageButton add;
 
-    add = (ImageButton) findViewById(R.id.add_contact);
-        add.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ContactBookScreen.this, AddContact.class);
-                startActivity(intent);
-            }
-        });
+        add = (ImageButton) findViewById(R.id.add_contact);
+            add.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(ContactBookScreen.this, AddContact.class);
+                    startActivity(intent);
+                }
+            });
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+            ImageButton leave;
+
+            leave = (ImageButton) findViewById(R.id.leave);
+                leave.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(ContactBookScreen.this, HomeScreen.class);
+                        startActivity(intent);
+                    }
+                });
+
+
+            ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+                Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+                v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+                return insets;
+            });
 
 
 
