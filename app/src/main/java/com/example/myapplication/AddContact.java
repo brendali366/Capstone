@@ -1,6 +1,9 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,5 +22,15 @@ public class AddContact extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_add_contact);
 
+        ImageButton leave_contact;
+        leave_contact = (ImageButton) findViewById(R.id.leave_contact);
+
+        leave_contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AddContact.this, ContactBookScreen.class);
+                startActivity(intent);
+            }
+        });
     }
 }
