@@ -66,13 +66,14 @@
         android:layout_marginTop="0dp"
         android:fontFamily="@font/pressstart2pregular"
         android:gravity="center"
-        android:text="CONCTACT BOOK"
+        android:text="CONTACT BOOK"
         android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"
         android:background="#795548"
         />
+
     <ImageButton
         android:id="@+id/imageView2"
         android:layout_width="53dp"
@@ -85,6 +86,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/addcontact"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="64dp"
+        android:layout_height="47dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:rotation="180"
+        android:scaleType="fitCenter"
+        android:src="@drawable/addplus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/grandma"

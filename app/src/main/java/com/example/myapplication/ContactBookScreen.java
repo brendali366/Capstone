@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +19,7 @@ public class ContactBookScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_contact_book_screen);
 
@@ -32,6 +33,27 @@ public class ContactBookScreen extends AppCompatActivity {
             }
         });
 
+        ImageButton goBack;
+
+        goBack = (ImageButton) findViewById(R.id.imageView2);
+        goBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactBookScreen.this, HomeScreen.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton addContact;
+
+        addContact = (ImageButton) findViewById(R.id.addcontact);
+        addContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactBookScreen.this, AddContact.class);
+                startActivity(intent);
+            }
+        });
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
