@@ -14,6 +14,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class CreateProfile extends AppCompatActivity {
 
@@ -21,12 +22,19 @@ public class CreateProfile extends AppCompatActivity {
     private Button createProfileButtonBtn;
 
     FirebaseDatabase firebaseDatabase;
+   // FirebaseFirestore fstore; //for image
     DatabaseReference databaseReference;
+
+   // ImageView profileImage; // for image
+   // Button changeProfileImage; //for image
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_profile);
+
+       // profileImage = findViewById(R.id.profilePicture); // for image
+       // changeProfileImage = findViewById(R.id.createPFPButton); //for image
 
         // Initializing views
         usernameEdt = findViewById(R.id.username);
